@@ -1,4 +1,32 @@
 baseURL = "http://blog.tetov.se/"
 languageCode = "en-us"
 title = "tetov"
-theme = "hugo-min"
+theme = "hugo-xmin"
+footnotereturnlinkcontents = "↩"
+assetURL = "https://tetov-assets.nyc3.digitaloceanspaces.com"
+
+
+[permalinks]
+    post = ":slug/"
+    note = ":slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+[[menu.main]]
+    name = "Subscribe"
+    url = "/index.xml"
+
+[params]
+    description = "blog about arch & code"
+    footer = "&copy; Anton T Johansson 2018 | [Github](https://github.com/tetov) | [Twitter](https://twitter.com/te_tov)"
+
