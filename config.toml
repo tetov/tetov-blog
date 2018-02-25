@@ -1,10 +1,10 @@
 baseURL = "http://blog.tetov.se/"
 languageCode = "en-us"
-title = "tetov"
-theme = "hugo-xmin"
-footnotereturnlinkcontents = "↩"
-assetURL = "https://tetov-assets.nyc3.digitaloceanspaces.com"
-
+title = "Tetov's blog"
+theme = "kiss"
+copyright = "&copy; <a href=\"mailto:anton@tetov.se\">Anton T Johansson</a> 2018"
+Paginate = 5
+enableRobotsTXT = true
 
 [permalinks]
     post = ":slug/"
@@ -29,4 +29,24 @@ assetURL = "https://tetov-assets.nyc3.digitaloceanspaces.com"
 [params]
     description = "blog about arch & code"
     footer = "&copy; Anton T Johansson 2018 | [Github](https://github.com/tetov) | [Twitter](https://twitter.com/te_tov)"
+    assetURL = "https://tetov-assets.nyc3.digitaloceanspaces.com"
+[params.assets]
+    customCSS = [ "css/custom.css" ]
 
+[params.info]
+    enableSocial = true
+    homeTitle = "Tetov's blog"
+    related = false
+
+[params.social]
+    twitter = "te_tov"
+    github = "tetov"
+    email = "anton@tetov.se"
+    linkedin = "tetov"
+    instagram = "antontetov"
+
+[taxonomies]
+tag = "tags"
+
+[blackfriday]
+hrefTargetBlank = true
