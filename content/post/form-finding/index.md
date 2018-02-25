@@ -4,7 +4,7 @@ tags = [ "grasshopper", "rhino", "bachelor project"]
 date = "2017-03-13"
 +++
 
-{{< figure src="https://tetov-assets.nyc3.digitaloceanspaces.com/form-finding/weaving-5-rotate.gif" alt="Rotation animation of frozen BOIDs movement" width="100%">}}
+{{< tfig glob="weaving-5-rotate.gif" alt="Rotation animation of frozen BOIDs movement" width="100%">}}
 
 In this project we use Grasshopper to develop forms, I have tried to model agents' movement in a vector field using [Boids](https://en.wikipedia.org/wiki/Boids).
 
