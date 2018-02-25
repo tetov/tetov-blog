@@ -2,6 +2,7 @@
 title = "Ars Paradoxica deciphering spreadsheet"
 tags = [ "audiodrama", "ciphers" ]
 date = "2017-03-01"
+cover = "/patterns-not-work/tex-oot.png"
 +++
 {{< tfig glob="code-spreedsheet.png" alt="Deciphering spreadsheet" >}}
 

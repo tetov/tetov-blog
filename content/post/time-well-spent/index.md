@@ -2,6 +2,7 @@
 title = "Time well spent"
 tags = [ "grasshopper", "rhino", "animation" ]
 date = "2017-03-02"
+cover = "/time-well-spent/gif.gif"
 +++
 {{< tfig glob="gif.gif" alt="Animation from grasshopper" width="100%" >}}
 

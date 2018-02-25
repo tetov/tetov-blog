@@ -2,6 +2,7 @@
 title = "Form finding for bachelor project"
 tags = [ "grasshopper", "rhino", "bachelor project"]
 date = "2017-03-13"
+cover = "/form-finding/weaving-5-rotate.gif"
 +++
 
 {{< tfig glob="weaving-5-rotate.gif" alt="Rotation animation of frozen BOIDs movement" width="100%">}}

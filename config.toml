@@ -1,10 +1,14 @@
-baseURL = "http://blog.tetov.se/"
+baseURL = "https://blog.tetov.se/"
 languageCode = "en-us"
 title = "Tetov's blog"
 theme = "kiss"
-copyright = "&copy; <a href=\"mailto:anton@tetov.se\">Anton T Johansson</a> 2018"
+# copyright = "&copy; <a href=\"mailto:anton@tetov.se\">Anton T Johansson</a> 2018"
 Paginate = 5
 enableRobotsTXT = true
+
+pygmentsCodefences = true
+pygmentsUseClasses = true
+pygmentsCodefencesGuessSyntax = true
 
 [permalinks]
     post = ":slug/"

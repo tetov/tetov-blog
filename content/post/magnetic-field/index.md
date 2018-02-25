@@ -2,6 +2,7 @@
 title = "Magnetic fields update"
 tags = [ "grasshopper" ]
 date = "2017-08-06"
+cover = "/magnetic-field/magnetic.jpg"
 +++
 {{< tfig glob="magnetic.jpg" alt="Magnetic fields" >}}
 
