@@ -4,6 +4,7 @@ title = "Tetov's blog"
 theme = "tetov-kiss"
 Paginate = 5
 enableRobotsTXT = true
+copyright = "<a href=\"https://tetov.se/\">portfolio</a> • <a href=\"/pages/pgp-key/\">pgp key</a>"
 
 pygmentsCodefences = true
 pygmentsUseClasses = true
@@ -36,7 +37,6 @@ pygmentsCodefencesGuessSyntax = true
     enableSocial = true
     homeTitle = "Tetov's blog"
     related = false
-    footerText = "<a href=\"https://tetov.se/\">portfolio</a> • <a href=\"/pages/pgp-key/\">pgp key</a>"
 
 [params.social]
     twitter = "te_tov"
