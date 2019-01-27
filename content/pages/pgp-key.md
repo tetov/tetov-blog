@@ -1,4 +1,5 @@
 +++
+hidden = true
 title = "PGP key"
 +++
 Here is [my key](/pgp_public_key.asc). It is
