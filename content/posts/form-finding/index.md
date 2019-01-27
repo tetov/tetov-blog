@@ -5,7 +5,7 @@ date = "2017-03-13"
 cover = "/form-finding/weaving-5-rotate.gif"
 +++
 
-{{< tfig glob="weaving-5-rotate.gif" alt="Rotation animation of frozen BOIDs movement" width="100%">}}
+{{< img-fig name="weaving-5-rotate.gif" alt="Rotation animation of frozen BOIDs movement" width="100%">}}
 
 In this project we use Grasshopper to develop forms, I have tried to model agents' movement in a vector field using [Boids](https://en.wikipedia.org/wiki/Boids).
 

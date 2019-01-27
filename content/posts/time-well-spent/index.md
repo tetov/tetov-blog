@@ -4,8 +4,8 @@ tags = [ "grasshopper", "rhino", "animation" ]
 date = "2017-03-02"
 cover = "/time-well-spent/gif.gif"
 +++
-{{< tfig glob="gif.gif" alt="Animation from grasshopper" width="100%" >}}
+{{< img-fig name="gif.gif" alt="Animation from grasshopper" width="100%" >}}
 
 I found out that you can animate from sliders in Grashopper!
 
-{{< tfig glob="anim2.gif" alt="Another animation from grasshopper" width="100%" >}}
+{{< img-fig name="anim2.gif" alt="Another animation from grasshopper" width="100%" >}}

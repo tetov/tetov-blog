@@ -2,9 +2,8 @@
 title = "Patterns, not work"
 tags = [ "pattern" ]
 date = "2017-08-09"
-cover = "/dangerous-pattern/tex-oot.png"
 +++
-{{< tfig glob="tex-oot.png">}}
+{{< img-fig name="tex-oot.svg">}}
 
 I made this. (Instead of working on my bachelor project).
 
