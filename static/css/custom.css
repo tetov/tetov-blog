@@ -6,3 +6,6 @@
 .content h6 {
     color: #666; // Custom Color
 }
+figcaption {
+  text-align: center;
+}
