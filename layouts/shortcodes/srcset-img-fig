@@ -5,7 +5,7 @@
     <img
         srcset="
           {{ (.Resize "768x").RelPermalink }} 768w,
-          {{ (.Resize "960x").RelPermalink }} 960w,
+          {{ (.Resize "888x").RelPermalink }} 960w,
           {{ (.Resize "1200x").RelPermalink }} 1200w"
         src="{{ (.Resize "960x").RelPermalink }}" alt="{{$altText}}"/>
     <figcaption><p>{{ $caption }}</p></figcaption>
