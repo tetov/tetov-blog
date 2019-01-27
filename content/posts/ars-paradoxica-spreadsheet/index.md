@@ -4,7 +4,7 @@ tags = [ "audiodrama", "ciphers" ]
 date = "2017-03-01"
 cover = "/patterns-not-work/tex-oot.png"
 +++
-{{< tfig glob="code-spreedsheet.png" alt="Deciphering spreadsheet" >}}
+{{< img-fig name="code-spreedsheet.png" alt="Deciphering spreadsheet" >}}
 
 I listen to the beautiful audiodrama [Ars Paradoxica](https://arsparadoxica.com/). In the end of each episode a series of numbers are read. I put together a spreadsheet to decipher these, [take a look if you'd like](https://docs.google.com/spreadsheets/d/1g2tXvxwR4-Oumgf3H3ucRDdE90pUqfZpS65uwsC1dpw/edit?usp=sharing).
 

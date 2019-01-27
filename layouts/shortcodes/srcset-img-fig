@@ -2,14 +2,12 @@
 {{ $caption := .Get "caption"}}
 {{ with $.Page.Resources.GetMatch (.Get "name") }}
   <figure>
-    <a href="{{.RelPermalink}}">
-      <img
+    <img
         srcset="
           {{ (.Resize "768x").RelPermalink }} 768w,
           {{ (.Resize "960x").RelPermalink }} 960w,
           {{ (.Resize "1200x").RelPermalink }} 1200w"
         src="{{ (.Resize "960x").RelPermalink }}" alt="{{$altText}}"/>
-    </a>
     <figcaption><p>{{ $caption }}</p></figcaption>
   </figure>
 {{ else }}
