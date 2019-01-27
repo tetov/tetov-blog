@@ -1,4 +1,4 @@
-baseURL = "https://blog.tetov.se/"
+baseURL = "https://tetov.se/"
 languageCode = "en"
 title = "tetov's blog"
 theme = "tetov-kiss"
