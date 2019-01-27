@@ -17,5 +17,5 @@ Ottar worked tirelessly to improve the conditions of the working class women, to
 
 Steel and fiberglass.
 
-{{< img-fig name="staende.jpg" caption="The feet are actually the weakest part" >}}
-{{< img-fig name="liggande.jpg" caption="The light bulb underneath was a late addition" >}}
+{{< img-fig name="staende.jpg" title="The feet are actually the weakest part" >}}
+{{< img-fig name="liggande.jpg" title="The light bulb underneath was a late addition" >}}
