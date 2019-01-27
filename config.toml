@@ -1,49 +1,47 @@
 baseURL = "https://blog.tetov.se/"
-languageCode = "en-us"
-title = "Tetov's blog"
+languageCode = "en"
+title = "tetov's blog"
 theme = "tetov-kiss"
 Paginate = 5
 enableRobotsTXT = true
-copyright = "<a href=\"https://tetov.se/\">portfolio</a> • <a href=\"/pages/pgp-key/\">pgp key</a>"
 
 pygmentsCodefences = true
 pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 
-[permalinks]
-    post = ":slug/"
-    note = ":slug/"
-
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 2
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 4
-[[menu.main]]
-    name = "Subscribe"
-    url = "/index.xml"
-
 [params.assets]
-    customCSS = [ "css/custom.css" ]
+customCSS = [ "css/custom.css" ]
+
+[params.rss]
+includeContent = true
+authorName = "Anton T Johansson"
+authorEmail = "anton@tetov.se"
 
 [params.info]
-    enableSocial = true
-    homeTitle = "Tetov's blog"
-    related = false
+enableSocial = true
+homeTitle = "tetov's blog"
+poweredby = false
+related = false
 
 [params.social]
-    twitter = "te_tov"
-    github = "tetov"
-    email = "anton@tetov.se"
-    linkedin = "tetov"
-    instagram = "antontetov"
+twitter = "a_tetov"
+github = "tetov"
+email = "anton@tetov.se"
+linkedin = "tetov"
+instagram = "antontetov"
+rss = "index.xml"
+
+[params.sections_right]
+"/about/" = "about"
+"/pgp-key/" = "pgp key"
+"/tags/portfolio/" = "portfolio"
+
+[params.social.config]
+platforms = ["twitter", "instagram", "email", "github", "linkedin", "rss"]
+
+[permalinks]
+posts = ":slug/"
+pages = ":slug/"
 
 [taxonomies]
 tag = "tags"
