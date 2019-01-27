@@ -1,6 +1,7 @@
 +++
 title = "Ars Paradoxica deciphering spreadsheet"
 tags = [ "audiodrama", "ciphers" ]
+categories = [ "blog" ]
 date = "2017-03-01"
 cover = "/patterns-not-work/tex-oot.png"
 +++

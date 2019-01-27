@@ -1,6 +1,7 @@
 +++
 title = "Time well spent"
 tags = [ "grasshopper", "rhino", "animation" ]
+categories = [ "blog" ]
 date = "2017-03-02"
 cover = "/time-well-spent/gif.gif"
 +++

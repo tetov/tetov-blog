@@ -1,6 +1,7 @@
 +++
 title = "Patterns, not work"
 tags = [ "pattern" ]
+categories = [ "blog" ]
 date = "2017-08-09"
 +++
 {{< img-fig name="tex-oot.svg">}}

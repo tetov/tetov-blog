@@ -34,7 +34,7 @@ rss = "index.xml"
 [params.sections_right]
 "/about/" = "about"
 "/pgp-key/" = "pgp key"
-"/tags/portfolio/" = "portfolio"
+"/categories/portfolio/" = "portfolio"
 
 [params.social.config]
 platforms = ["twitter", "instagram", "email", "github", "linkedin", "rss"]
@@ -44,4 +44,6 @@ posts = ":slug/"
 pages = ":slug/"
 
 [taxonomies]
+category = "categories"
 tag = "tags"
+
