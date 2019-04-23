@@ -18,5 +18,6 @@ Here are the steps needed in case someone else wants to try it. These instructio
 3. Append the path to the stubs to the `PYTHONPATH` variable in your shell profile (e.g. `.bash_profile/.bashrc/.zshrc`) using the command `export PYTHONPATH=${PYTHONPATH}:/path/to/iron-python-stubs/release/stubs.min`
 4. Put `let g:jedi-vim#force_py_version = '2'` in your `.vimrc` if you have Python 3 in your environment.
 5. You are now ready to complete using jedi-vim, the standard keymap is `<C>-<Space>`. I use [ervandew/supertab](https://github.com/ervandew/supertab) to map completions to `<Tab>`.
+<script id="asciicast-242101" src="https://asciinema.org/a/242101.js" async></script>
 
 I've tried to use the same method with the stubs provided by Rhino-Stubs, but haven't gotten it to work. If someone figures it out, please let me know. This would be interesting because Rhino-Stubs [provides better support](https://discourse.mcneel.com/t/autocomplete-while-editing-python-scripts-outside-of-rhino/79329/3) for [RhinoInside](https://discourse.mcneel.com/t/rhino-inside-python/78987).
