@@ -1,13 +1,30 @@
 baseURL = "https://tetov.se/"
 languageCode = "en"
 title = "tetov's blog"
-theme = "tetov-kiss"
+theme = "hello-friend-ng"
 Paginate = 5
 enableRobotsTXT = true
 
 pygmentsCodefences = true
 pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Anton T Johansson's portfolio and blog"
+  keywords = "homepage, blog, architecture, portfolio, programming"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
 
 [params.assets]
 customCSS = [ "css/custom.css" ]
@@ -17,27 +34,41 @@ includeContent = true
 authorName = "Anton T Johansson"
 authorEmail = "anton@tetov.se"
 
-[params.info]
-enableSocial = true
-homeTitle = "tetov's blog"
-poweredby = false
-related = false
+# [params.info]
+# enableSocial = true
+# homeTitle = "tetov's blog"
+# poweredby = false
+# related = false
 
-[params.social]
-twitter = "a_tetov"
-github = "tetov"
-email = "anton@tetov.se"
-linkedin = "tetov"
-instagram = "antontetov"
-rss = "index.xml"
+# [params.social]
+# twitter = "a_tetov"
+# github = "tetov"
+# email = "anton@tetov.se"
+# linkedin = "tetov"
+# instagram = "antontetov"
+# rss = "index.xml"
 
-[params.sections_right]
-"/about/" = "about"
-"/pgp-key/" = "pgp key"
-"/categories/portfolio/" = "portfolio"
+[menu]
+    [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    [[menu.main]]
+    identifier = "pgpkey"
+    name = "pgpkey"
+    url = "/pgpkey"
+    [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/categories/portfolio"
 
-[params.social.config]
-platforms = ["twitter", "instagram", "email", "github", "linkedin", "rss"]
+# [params.sections_right]
+# "/about/" = "about"
+# "/pgp-key/" = "pgp key"
+# "/categories/portfolio/" = "portfolio"
+
+# [params.social.config]
+# platforms = ["twitter", "instagram", "email", "github", "linkedin", "rss"]
 
 [permalinks]
 posts = ":slug/"
