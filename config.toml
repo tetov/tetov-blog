@@ -1,6 +1,9 @@
-baseURL = "https://tetov.se/"
-languageCode = "en"
 title = "tetov's hideout"
+
+baseURL = "https://tetov.se/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
 theme = "hermit"
 enableGitInfo = true
 # copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
@@ -11,6 +14,9 @@ enableRobotsTXT = true
 
 pygmentsCodefences = true
 pygmentsUseClasses = true
+
+[author]
+  name = "Anton T Johansson"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -24,12 +30,14 @@ pygmentsUseClasses = true
   dateformNumTime = "2006-01-02"
 
   # Metadata mostly used in document's head
-  # description = ""
+  description = "anton t johansson's portfolio & blog"
   # images = [""]
   themeColor = "#018574"
 
   homeSubtitle = "anton t johansson's portfolio & blog"
   # footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  bgImg = "./tex-oot.svg"  # Homepage background-image URL
+
 
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
@@ -84,14 +92,6 @@ pygmentsUseClasses = true
     name = "about"
     url = "about/"
     weight = 20
-
-# [params.sections_right]
-# "/about/" = "about"
-# "/pgp-key/" = "pgp key"
-# "/categories/portfolio/" = "portfolio"
-
-# [params.social.config]
-# platforms = ["twitter", "instagram", "email", "github", "linkedin", "rss"]
 
 [permalinks]
   posts = ":slug/"
