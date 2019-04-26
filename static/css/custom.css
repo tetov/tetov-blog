@@ -1,11 +1,4 @@
-.content h1,
-.content h2,
-.content h3,
-.content h4,
-.content h5,
-.content h6 {
-    color: #666; // Custom Color
-}
-figcaption {
-  text-align: center;
+/* fix links on nav and index for my white hermit variant */
+a:hover {
+  color: #018574;
 }

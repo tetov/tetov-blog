@@ -1,49 +1,104 @@
 baseURL = "https://tetov.se/"
 languageCode = "en"
-title = "tetov's blog"
-theme = "tetov-kiss"
-Paginate = 5
+title = "tetov's hideout"
+theme = "hermit"
+enableGitInfo = true
+# copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
+
+# Paginate = 5
 enableRobotsTXT = true
 
 pygmentsCodefences = true
 pygmentsUseClasses = true
-pygmentsCodefencesGuessSyntax = true
 
-[params.assets]
-customCSS = [ "css/custom.css" ]
+[blackfriday]
+  hrefTargetBlank = true
+  noreferrerLinks = true
+  nofollowLinks = true
 
-[params.rss]
-includeContent = true
-authorName = "Anton T Johansson"
-authorEmail = "anton@tetov.se"
+[params]
+  dateform        = "2006-01-02"
+  dateformShort   = "060102"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02"
 
-[params.info]
-enableSocial = true
-homeTitle = "tetov's blog"
-poweredby = false
-related = false
+  # Metadata mostly used in document's head
+  # description = ""
+  # images = [""]
+  themeColor = "#018574"
 
-[params.social]
-twitter = "a_tetov"
-github = "tetov"
-email = "anton@tetov.se"
-linkedin = "tetov"
-instagram = "antontetov"
-rss = "index.xml"
+  homeSubtitle = "anton t johansson's portfolio & blog"
+  # footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-[params.sections_right]
-"/about/" = "about"
-"/pgp-key/" = "pgp key"
-"/categories/portfolio/" = "portfolio"
 
-[params.social.config]
-platforms = ["twitter", "instagram", "email", "github", "linkedin", "rss"]
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  gitUrl = "https://github.com/tetov/tetov-blog/commit/"
+
+  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
+  justifyContent = false # Set "text-align: justify" to `.content`
+
+  customCSS = [ "css/custom.css" ]
+
+  [[params.social]]
+    name  = "twitter"
+    url = "https://twitter.com/a_tetov"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/tetov"
+
+  [[params.social]]
+    name = "instagram"
+    url = "https://www.instagram.com/antontetov/"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/tetov"
+
+  [[params.social]]
+    name = "facebook"
+    url = "https://www.facebook.com/antontetov"
+
+  [[params.social]]
+    name = "vimeo"
+    url = "https://vimeo.com/tetov"
+
+  [[params.social]]
+    name = "email"
+    url = "mailto://anton@tetov.se"
+
+[menu]
+
+  [[menu.main]]
+    name = "blog"
+    url = "/blog"
+    weight = 10
+
+  [[menu.main]]
+    name = "portfolio"
+    url = "/portfolio"
+    weight = 15
+
+  [[menu.main]]
+    name = "about"
+    url = "about/"
+    weight = 20
+
+# [params.sections_right]
+# "/about/" = "about"
+# "/pgp-key/" = "pgp key"
+# "/categories/portfolio/" = "portfolio"
+
+# [params.social.config]
+# platforms = ["twitter", "instagram", "email", "github", "linkedin", "rss"]
 
 [permalinks]
-posts = ":slug/"
-pages = ":slug/"
+  posts = ":slug/"
+  pages = ":slug/"
+  categories = ":slug/"
 
 [taxonomies]
-category = "categories"
-tag = "tags"
+  category = "categories"
+  tag = "tags"
 
