@@ -11,13 +11,34 @@ I've started to write a lot of Python scripts in Grasshopper which usually means
 
 The Rhino-Stubs package provides Python stubs as described in [PEP-484](https://www.python.org/dev/peps/pep-0484/) and [PEP-561](https://www.python.org/dev/peps/pep-0561/), and my initial research led me to an [issue on the jedi repository](https://github.com/davidhalter/jedi/issues/839) (a widely used autocompletion engine for python). However, I also found another source of stubs, [gtalarico/ironpython-stubs](https://github.com/gtalarico/ironpython-stubs) in another format. The repo's wiki includes [instructions for integration with Atom, VS Code and Sublime Code](https://github.com/gtalarico/ironpython-stubs/wiki), and I used these instructions to integrate the stubs with Vim and Jedi through [vim-jedi](https://github.com/davidhalter/jedi-vim).
 
-Here are the steps needed in case someone else wants to try it. These instructions assumes that you have a Linux environment with an installation of Vim that has been compiled with python support, and that you have Python 2 installed. Other autocompletion plugins might interfere with jedi-vim.
+Here are the steps needed in case someone else wants to try it. 
+
+## Requirements
+
+These instructions assumes that you have a Linux environment with an installation of Vim that has been compiled with python support, and that you have Python 2 installed. Other autocompletion plugins might interfere with jedi-vim, disable them if you are having trouble.
+
+## Setup
 
 1. Install the Vim plugin [jedi-vim](https://github.com/davidhalter/jedi-vim).
-2. Clone or download [gtalarico/ironpython-stubs](https://github.com/gtalarico/ironpython-stubs). The repo will be referenced in the next step.
-3. Append the path to the stubs to the `PYTHONPATH` variable in your shell profile (e.g. `.bash_profile/.bashrc/.zshrc`) using the command `export PYTHONPATH=${PYTHONPATH}:/path/to/iron-python-stubs/release/stubs.min`
-4. Put `let g:jedi-vim#force_py_version = '2'` in your `.vimrc` if you have Python 3 in your environment.
-5. You are now ready to complete using jedi-vim, the standard keymap is `<C>-<Space>`. I use [ervandew/supertab](https://github.com/ervandew/supertab) to map completions to `<Tab>`.
+2. Clone or download [gtalarico/ironpython-stubs](https://github.com/gtalarico/ironpython-stubs). The repo will be referenced in the next steps.
+
+## Configuration
+
+### System-wide
+
+1. Append the path to the stubs to the `PYTHONPATH` variable in your shell profile (e.g. `.bash_profile/.bashrc/.zshrc`) using the command `export PYTHONPATH=${PYTHONPATH}:/path/to/iron-python-stubs/release/stubs.min`
+2. Put `let g:jedi-vim#force_py_version = '2'` in your `.vimrc` if you have Python 3 in your environment.
+
+### In a `virtualenv`
+
+1. Create a new virtualenv with the command `virtualenv -p python2 my_ironpy_scripts`. Replace python2 with the path to your Python 2 executable if python2 doesn't work.
+2. Create a file called `.pth` in `my_ironpy_scripts/lib/python2.X/site-packages/` containing the absolute or relative path to the ironpython-stubs. E.g. `/path/to/ironpython-stubs/release/stubs.min`
+3. `source bin/activate` and start editing, jedi-vim will use your virtualenv with the added path to the stubs.
+
+## Usage
+
+You are now ready to complete using jedi-vim, the standard keymap is `<C>-<Space>`. I use [ervandew/supertab](https://github.com/ervandew/supertab) to map completions to `<Tab>`.
+
 <script id="asciicast-242101" src="https://asciinema.org/a/242101.js" async></script>
 
 I've tried to use the same method with the stubs provided by Rhino-Stubs, but haven't gotten it to work. If someone figures it out, please let me know. This would be interesting because Rhino-Stubs [provides better support](https://discourse.mcneel.com/t/autocomplete-while-editing-python-scripts-outside-of-rhino/79329/3) for [RhinoInside](https://discourse.mcneel.com/t/rhino-inside-python/78987).
