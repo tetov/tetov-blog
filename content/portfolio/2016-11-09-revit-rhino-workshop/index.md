@@ -1,6 +1,6 @@
 +++
 title = "Revit/Rhino workshop"
-categories = [ "portfolio" ]
+tags = [ "portfolio" ]
 date = "2016-11-09"
 +++
 {{< img-fig name="hero.jpg" alt="Final collage" >}}

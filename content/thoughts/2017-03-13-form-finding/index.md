@@ -1,6 +1,6 @@
 +++
 title = "Form finding for bachelor project"
-tags = [ "grasshopper", "rhino", "bachelor project"]
+tags = [ "thoughts", "grasshopper", "rhino", "bachelor project"]
 categories = [ "blog" ]
 date = "2017-03-13"
 cover = "/form-finding/weaving-5-rotate.gif"

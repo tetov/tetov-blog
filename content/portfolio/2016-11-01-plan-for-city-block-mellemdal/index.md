@@ -1,6 +1,6 @@
 +++
 title = "Plan for city block Mellemdal"
-categories = [ "portfolio" ]
+tags = [ "portfolio" ]
 date = "2016-11-01"
 +++
 {{< img-fig name="plan-margaretedal-rita-mellem-husene-illustrator.jpg" alt="Illustrated plan drawing of Mellemdal" >}}

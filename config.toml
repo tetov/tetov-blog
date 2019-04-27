@@ -79,8 +79,8 @@ pygmentsUseClasses = true
 [menu]
 
   [[menu.main]]
-    name = "blog"
-    url = "/blog"
+    name = "thoughts"
+    url = "/thoughts"
     weight = 10
 
   [[menu.main]]
@@ -96,9 +96,8 @@ pygmentsUseClasses = true
 [permalinks]
   posts = ":slug/"
   pages = ":slug/"
-  categories = ":slug/"
+  tags = ":slug/"
 
 [taxonomies]
-  category = "categories"
   tag = "tags"
 

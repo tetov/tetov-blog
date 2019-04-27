@@ -1,6 +1,6 @@
 +++
 title = "Kämpa Ottar"
-categories = [ "portfolio" ]
+tags = [ "portfolio" ]
 date = "2016-10-01"
 +++
 

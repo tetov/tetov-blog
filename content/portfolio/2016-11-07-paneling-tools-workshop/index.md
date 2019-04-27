@@ -1,6 +1,6 @@
 +++
 title = "Paneling tools workshop"
-categories = [ "portfolio" ]
+tags = [ "portfolio" ]
 date = "2016-11-07"
 hidden = true
 +++

@@ -1,6 +1,6 @@
 +++
 title = "Magnetic fields update"
-tags = [ "grasshopper" ]
+tags = [ "thoughts", "grasshopper" ]
 categories = [ "blog" ]
 date = "2017-08-06"
 cover = "/magnetic-field/magnetic.jpg"

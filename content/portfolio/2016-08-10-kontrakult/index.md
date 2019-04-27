@@ -1,7 +1,7 @@
 +++
 title = "Kontrakult - center for music of social change"
-categories = [ "portfolio" ]
 date = "2016-08-10"
+tags = [ "portfolio" ]
 +++
 {{< img-fig name="kontrakult-logo.svg" alt="Logo for Kontrakult" >}}
 

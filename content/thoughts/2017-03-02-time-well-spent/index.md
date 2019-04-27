@@ -1,9 +1,7 @@
 +++
 title = "Time well spent"
-tags = [ "grasshopper", "rhino", "animation" ]
-categories = [ "blog" ]
+tags = [ "thoughts", "grasshopper", "rhino", "animation" ]
 date = "2017-03-02"
-cover = "/time-well-spent/gif.gif"
 +++
 {{< img-fig name="gif.gif" alt="Animation from grasshopper" width="100%" >}}
 

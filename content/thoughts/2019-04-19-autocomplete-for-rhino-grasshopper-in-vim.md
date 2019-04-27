@@ -1,7 +1,6 @@
 +++
 title = "Autocompletion for Rhino/Grasshopper python scripts in Vim"
-tags = [ "code", "vim", "rhino", "grasshopper", "python" ]
-categories = [ "blog" ]
+tags = [ "thoughts", "code", "vim", "rhino", "grasshopper", "python" ]
 date = "2019-04-19"
 +++
 

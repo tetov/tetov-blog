@@ -1,7 +1,6 @@
 +++
 title = "outerspace.mid"
-tags = [ "nostalgia" ] 
-categories = [ "blog" ]
+tags = [ "thoughts", "nostalgia" ] 
 date = "2017-01-30"
 +++
 
