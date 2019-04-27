@@ -2,3 +2,11 @@
 a:hover {
   color: #018574;
 }
+
+.content a:hover {
+  color: #fff;
+}
+
+.footnote-ref a {
+  background-color: transparent;
+}
