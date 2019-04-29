@@ -95,8 +95,9 @@ pygmentsUseClasses = true
 
 [permalinks]
   posts = ":slug/"
-  pages = ":slug/"
   tags = ":slug/"
+  thoughts = ":slug/"
+  portfolio = ":slug/"
 
 [taxonomies]
   tag = "tags"
