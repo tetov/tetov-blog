@@ -4,7 +4,7 @@ tags = [ "portfolio" ]
 date = "2016-10-01"
 +++
 
-{{< img-fig name="ottar-logo.svg" alt="Logo for Kämpa Ottar" >}}
+{{< figure src="ottar-logo.svg" title="Logo for Kämpa Ottar" >}}
 
 
 This piece of furniture is titled Kämpa Ottar and is inspired by Ottar.
@@ -17,5 +17,5 @@ Ottar worked tirelessly to improve the conditions of the working class women, to
 
 Steel and fiberglass.
 
-{{< img-fig name="staende.jpg" title="The feet are actually the weakest part" >}}
-{{< img-fig name="liggande.jpg" title="The light bulb underneath was a late addition" >}}
+{{< figure src="staende.jpg" title="The feet are actually the weakest part" >}}
+{{< figure src="liggande.jpg" title="The light bulb underneath was a late addition" >}}

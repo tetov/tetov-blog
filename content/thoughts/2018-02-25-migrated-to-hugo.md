@@ -31,3 +31,6 @@ And to use it in your markdown.
 {{</* pbfig glob="" alt="" */>}}
 ```
 The post [Hugo Page Resources and how to use them](https://regisphilibert.com/blog/2018/01/hugo-page-resources-and-how-to-use-them/) is a great resource to understand Page Bundles.
+
+**Update 2019-05-01:**
+I've put the sites back together, and replace my own shortcode with [Kaushal Modi's](https://gitlab.com/kaushalmodi/hugo-theme-refined/blob/master/layouts/shortcodes/figure.html).

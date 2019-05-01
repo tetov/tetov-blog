@@ -2,12 +2,12 @@
 title = "Paneling tools workshop"
 tags = [ "portfolio" ]
 date = "2016-11-07"
-hidden = true
+draft = true
 +++
-{{< img-fig name="1.jpg" title="Paneling tools blob" >}}
+{{< figure src="1.jpg" title="Paneling tools blob" >}}
 
 Some 3D custom panels using Paneling Tools in Rhino.
 
-{{< img-fig name="2.jpg" >}}
-{{< img-fig name="3.jpg" >}}
-{{< img-fig name="4.jpg" >}}
+{{< figure src="2.jpg" >}}
+{{< figure src="3.jpg" >}}
+{{< figure src="4.jpg" >}}
