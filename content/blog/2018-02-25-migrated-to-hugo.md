@@ -6,7 +6,8 @@ date = "2018-02-25T21:38:24+01:00"
 I've decided to decouple my [portfolio](https://tetov.se/) from my [blog](https://tetov.se/blog/), mainly to avoid maintaining a Jekyll template that works with both my portfolio content and my blog posts. It felt like this was a good time to try out [Hugo](https://gohugo.io/). Confusing but refreshing.
 
 I've decided to use [page bundles](https://gohugo.io/content-management/organization/#page-bundles) and worked out a shortcode based on [Hugo's embedded figure shortcode](https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes). `glob` is either the file name of the image, or a [glob](https://en.wikipedia.org/wiki/Glob_%28programming%29).
-```go
+
+{{< highlight go>}}
 // /layouts/shortcodes/pbfig.html
 {{ $img := $.Page.Resources.GetMatch (.Get "glob")}}
 <figure{{ with .Get "class" }} class="{{.}}"{{ end }}>
@@ -25,11 +26,14 @@ I've decided to use [page bundles](https://gohugo.io/content-management/organiza
     </figcaption>
     {{ end }}
 </figure>
-```
+{{< /highlight >}}
+
 And to use it in your markdown.
-```go
+
+{{< highlight go>}}
 {{</* pbfig glob="" alt="" */>}}
-```
+{{< /highlight >}}
+
 The post [Hugo Page Resources and how to use them](https://regisphilibert.com/blog/2018/01/hugo-page-resources-and-how-to-use-them/) is a great resource to understand Page Bundles.
 
 **Update 2019-05-01:**

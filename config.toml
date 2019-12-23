@@ -6,24 +6,14 @@ defaultContentLanguage = "en"
 
 theme = "hermit"
 enableGitInfo = true
-# copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 
-# Paginate = 5
 enableRobotsTXT = true
-
-pygmentsCodefences = true
-pygmentsUseClasses = true
 
 pluralizelisttitles = false
 
 [author]
   name = "Anton T Johansson"
-
-[blackfriday]
-  hrefTargetBlank = true
-  noreferrerLinks = true
-  nofollowLinks = true
 
 [params]
   dateform        = "2006-01-02"
@@ -104,3 +94,10 @@ pluralizelisttitles = false
 [taxonomies]
   tag = "tags"
 
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    style = "monokailight"
+    linenos = true
+    noClasses = false

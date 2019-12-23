@@ -4,6 +4,8 @@ tags = [ "blog", "code", "vim", "rhino", "grasshopper", "python" ]
 date = "2019-04-19"
 +++
 
+**UPDATE**: Jedi [now supports](https://github.com/davidhalter/jedi/issues/839) [pep-0484](https://www.python.org/dev/peps/pep-0484/) so installing [Rhino-Stubs](https://pypi.org/project/Rhino-stubs/) should be enough.
+
 [Steve Baer](https://stevebaer.wordpress.com/) at [McNeel](https://mcneel.com/) posted on the [McNeel forum](https://discourse.mcneel.com/) about the Python package [Rhino-Stubs](https://pypi.org/project/Rhino-stubs/) he had created and how to use it in [PyCharm](https://www.jetbrains.com/pycharm/) for autocompletion and type hints for Rhino/Grasshopper scripts. Here's the [thread](https://discourse.mcneel.com/t/autocomplete-while-editing-python-scripts-outside-of-rhino/79329) and here's [the full explanation on Steve's blog](https://stevebaer.wordpress.com/2019/02/25/autocomplete-and-type-hints-with-python-scripts-for-rhino-grasshopper/).
 
 I've started to write a lot of Python scripts in Grasshopper which usually means you write using the built in editor if you want autocompletion. Since I already copy my scripts to a [git repository](https://github.com/tetov/py-grasshopper) for version control I jumped at the chance to do more of the scripting in an external editor. While PyCharm has an OK Vim plugin I still longed for the comfort of trusty Vim.
