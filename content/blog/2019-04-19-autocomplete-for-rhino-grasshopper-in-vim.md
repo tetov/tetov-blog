@@ -1,6 +1,6 @@
 +++
 title = "Autocompletion for Rhino/Grasshopper python scripts in Vim"
-tags = [ "thoughts", "code", "vim", "rhino", "grasshopper", "python" ]
+tags = [ "blog", "code", "vim", "rhino", "grasshopper", "python" ]
 date = "2019-04-19"
 +++
 
@@ -10,7 +10,7 @@ I've started to write a lot of Python scripts in Grasshopper which usually means
 
 The Rhino-Stubs package provides Python stubs as described in [PEP-484](https://www.python.org/dev/peps/pep-0484/) and [PEP-561](https://www.python.org/dev/peps/pep-0561/), and my initial research led me to an [issue on the jedi repository](https://github.com/davidhalter/jedi/issues/839) (a widely used autocompletion engine for python). However, I also found another source of stubs, [gtalarico/ironpython-stubs](https://github.com/gtalarico/ironpython-stubs) in another format. The repo's wiki includes [instructions for integration with Atom, VS Code and Sublime Code](https://github.com/gtalarico/ironpython-stubs/wiki), and I used these instructions to integrate the stubs with Vim and Jedi through [vim-jedi](https://github.com/davidhalter/jedi-vim).
 
-Here are the steps needed in case someone else wants to try it. 
+Here are the steps needed in case someone else wants to try it.
 
 ## Requirements
 

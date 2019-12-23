@@ -1,6 +1,6 @@
 +++
 title = "Time well spent"
-tags = [ "thoughts", "grasshopper", "rhino", "animation" ]
+tags = [ "blog", "grasshopper", "rhino", "animation" ]
 date = "2017-03-02"
 draft = true
 +++

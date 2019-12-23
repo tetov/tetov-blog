@@ -1,6 +1,6 @@
 +++
 title = "Migrated to Hugo"
-tags = [ "thoughts", "meta", "hugo" ]
+tags = [ "blog", "meta", "hugo" ]
 date = "2018-02-25T21:38:24+01:00"
 +++
 I've decided to decouple my [portfolio](https://tetov.se/) from my [blog](https://tetov.se/blog/), mainly to avoid maintaining a Jekyll template that works with both my portfolio content and my blog posts. It felt like this was a good time to try out [Hugo](https://gohugo.io/). Confusing but refreshing.

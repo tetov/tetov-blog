@@ -1,6 +1,6 @@
 +++
 title = "outerspace.mid"
-tags = [ "thoughts", "nostalgia" ] 
+tags = [ "blog", "nostalgia" ]
 date = "2017-01-30"
 +++
 

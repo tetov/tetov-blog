@@ -1,6 +1,6 @@
 +++
 title = "Form finding for bachelor project"
-tags = [ "thoughts", "grasshopper", "rhino", "bachelor project"]
+tags = [ "blog", "grasshopper", "rhino", "bachelor project"]
 date = "2017-03-13"
 +++
 

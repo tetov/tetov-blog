@@ -1,7 +1,6 @@
 +++
 title = "Ars Paradoxica deciphering spreadsheet"
-tags = [ "thoughts", "audiodrama", "ciphers" ]
-categories = [ "blog" ]
+tags = [ "blog", "audiodrama", "ciphers" ]
 date = "2017-03-01"
 +++
 {{< figure src="code-spreedsheet.png" title="Deciphering spreadsheet" >}}

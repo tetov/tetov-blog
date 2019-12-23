@@ -1,6 +1,6 @@
 +++
 title = "Magnetic fields update"
-tags = [ "thoughts", "grasshopper" ]
+tags = [ "blog", "grasshopper" ]
 date = "2017-08-06"
 draft = true
 +++
