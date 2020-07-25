@@ -24,7 +24,7 @@ sections:
   label: About
   create: all
   match: "**/*"
-upload_dir: ''
+upload_dir: media
 public_path: https://s3.eu-central-1.amazonaws.com/assets.tetov.se
 front_matter_path: ''
 use_front_matter_path: 
